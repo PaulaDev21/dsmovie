@@ -1,12 +1,30 @@
+import MovieCard from "components/MovieCard";
 import Pagination from "components/Pagination";
 
 function MoviesListing() {
     return (
-        <div>
+        <>
             <Pagination />
-            <h1>Listagem do filmes</h1>
-            <a href="EvaluationForm/1" > LINK DO FORM</a>
-        </div>
+            <div className="container">
+                <div className="row">
+                    <div className="col col-sm-6 col-lg-4 col-xl-3 mb-3">
+                        <MovieCard />
+                    </div>
+                    <div className="col col-sm-6 col-lg-4 col-xl-3 mb-3">
+                        <MovieCard />
+                    </div>
+                    <div className="col col-sm-6 col-lg-4 col-xl-3 mb-3">
+                        <MovieCard />
+                    </div>
+                    <div className="col col-sm-6 col-lg-4 col-xl-3 mb-3">
+                        <MovieCard />
+                    </div>
+                    <div className="col col-sm-6 col-lg-4 col-xl-3 mb-3">
+                        <MovieCard />
+                    </div>
+                </div>
+            </div>
+        </>
     );
 };
 
