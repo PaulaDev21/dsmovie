@@ -9,11 +9,11 @@ public class ScoreDTO {
 		
 	}
 
-	public Long getId() {
+	public Long getMovieId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setMovieId(Long id) {
 		this.id = id;
 	}
 
